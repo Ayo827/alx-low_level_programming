@@ -11,3 +11,7 @@ _putchar(word[i]);
 _putchar('\n');
 return (0);
 }
+/*
+*\t\t\t The function main prints _putchar
+* \t\t\t It returns (0)
+*/
