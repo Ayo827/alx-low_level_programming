@@ -1,5 +1,9 @@
 #include <unistd.h>
 #include "main.h"
+/*
+* The function main prints _putchar
+*  It returns (0)
+*/
 int main(void)
 {
 char word[8] = "_putchar";
@@ -11,7 +15,4 @@ _putchar(word[i]);
 _putchar('\n');
 return (0);
 }
-/*
-*\t\t\t The function main prints _putchar
-* \t\t\t It returns (0)
-*/
+
