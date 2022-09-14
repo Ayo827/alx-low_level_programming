@@ -1,9 +1,12 @@
 #include <unistd.h>
 #include "main.h"
-/*
-* The function main prints _putchar
-*  It returns (0)
-*/
+/**
+ * main - check description
+ *
+ * Description: It prints the word _putchar, followed by a new line.
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
 char word[8] = "_putchar";
