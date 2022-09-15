@@ -10,7 +10,7 @@ char alpha;
 int i;
 for (i = 0; i <= 9; i++)
 {
-for (alpha = "a"; alpha <= "z"; alpha++)
+for (alpha = 'a'; alpha <= 'z'; alpha++)
 {
 _putchar(alpha);
 }
