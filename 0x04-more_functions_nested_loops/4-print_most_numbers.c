@@ -1,10 +1,12 @@
 #include "main.h"
 #include <unistd.h>
+
 /**
 * print_most_numbers - check main
 * Description: Prints numbers from 0 to 9 except 2 and 4
 * Return: Nothing
 **/
+
 void print_most_numbers(void)
 {
 int c;
