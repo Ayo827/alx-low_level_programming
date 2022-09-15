@@ -5,7 +5,7 @@
 * Description: Multiply two integers"
 * @a: integer input
 * @b: integer input
-* Return: 0 (Success)
+* Return: an integer
 **/
 int mul (int a, int b)
 {
