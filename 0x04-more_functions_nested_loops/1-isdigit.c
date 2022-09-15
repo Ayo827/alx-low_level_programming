@@ -8,9 +8,9 @@
 **/
 int _isdigit(int c)
 {
-int a;
+char a;
 int n = 0;
-for (a = 0; a < 10; a++)
+for (a = '0'; a < '10'; a++)
 {
 if (a == c)
 {
