@@ -2,9 +2,9 @@
 #include "main.h"
 /**
 * _isupper - check main
-* @c - is an integer input n
-* Description - Checks for uppercase character
-* Return - 1 if uppercase else 0
+* @c: is an integer input n
+* Description: Checks for uppercase character
+* Return: 1 if uppercase else 0
 **/
 int _isupper(int c)
 {
