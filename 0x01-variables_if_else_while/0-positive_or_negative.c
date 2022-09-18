@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
 * positive_or_negative - check main
 * Description: Check if value is positive or negative or zero
