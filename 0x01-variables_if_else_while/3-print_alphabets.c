@@ -1,5 +1,5 @@
-#include <stdlib>
-#include <stdio>
+#include <stdlib.h>
+#include <stdio.h>
 
 /**
 * main - check description
