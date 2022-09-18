@@ -12,6 +12,6 @@ for (A = 0; A <= 9; A++)
 {
 printf("%d", A);
 }
-printf('\n');
+printf("\n");
 return (0);
 }
