@@ -13,6 +13,6 @@ int i, len;
 len = strlen(str);
 for (i = 0; i < len / 2; i++)
 {
-puts(str[i]);
+puts(const *str[i]);
 }
 }
