@@ -2,8 +2,9 @@
 #include <stdio.h>
 /**
 * print_array - Check the code
-* @*a: Is a pointer to an array
-* Description: Print elements in an array, separating them with comma and space.
+* @a: Is a pointer to an array
+* @n: Is an integer,length of array
+* Description: Print elements in an array, separating them with comma.
 * Return: nothing
 **/
 void print_array(int *a, int n)
@@ -11,7 +12,14 @@ void print_array(int *a, int n)
 int i;
 for (i = 0; i < n; i++)
 {
+if (i == (n -1)
+{
+printf("%d", a[i]);
+}
+else
+{
 printf("%d, ", a[i]);
+}
 }
 printf("\n");
 }
