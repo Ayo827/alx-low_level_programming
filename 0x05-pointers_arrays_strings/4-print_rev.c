@@ -9,5 +9,14 @@
 **/
 void print_rev(char *s)
 {
-printf("%s", strrev(s));
+size_t i;
+size_t s_length;
+char *new_s_;
+new_s_ = "";
+s_length = strlen(s);
+for (i = 1; i <= s_length; i++)
+{
+new_s_ = new_s_ + s[s_length - i];
+}
+puts(new_s_);
 }
