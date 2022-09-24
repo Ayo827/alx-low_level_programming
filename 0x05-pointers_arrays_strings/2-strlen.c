@@ -5,7 +5,7 @@
 * _strlen - Length of a string
 * @s: Is a string in double quotes
 * Description: Get length of string and return the value
-* return: returns string length
+* Return: returns string length
 **/
 int _strlen(char *s)
 {
