@@ -13,6 +13,9 @@ int i, len;
 len = strlen(str);
 for (i = 0; i < len / 2; i++)
 {
-printf("%c",str[i]);
+if((i % 2 != 0) || (i == 0))
+{
+printf("%c", str[i]);
+}
 }
 }
