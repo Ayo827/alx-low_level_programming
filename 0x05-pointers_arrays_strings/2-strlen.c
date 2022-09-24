@@ -6,7 +6,7 @@
 * @str: This is string in double quotes
 * return: always (0)
 **/
-void _strlen(char *s)
+int _strlen(char *s)
 {
 size_t strlen(s);
 }
