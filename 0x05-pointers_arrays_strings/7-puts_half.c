@@ -13,14 +13,14 @@ int len, newlen;
 len = strlen(str);
 if ((len % 2) == 0)
 {
-for (newlen = len / 2; newlen < len / 2; newlen++)
+for (newlen = len / 2; newlen < len; newlen++)
 {
 printf("%c", str[newlen]);
 }
 }
 else
 {
-for (newlen = (len - 1) / 2; newlen < len / 2; newlen++)
+for (newlen = (len - 1) / 2; newlen < len; newlen++)
 {
 printf("%c", str[newlen]);
 }
