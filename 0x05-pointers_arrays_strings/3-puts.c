@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include <string.h>
 /**
 * _strlen - Length of a string
 * @str: Is a string in double quotes
