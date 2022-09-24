@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* _strlen - Length of a string
-* @str: Is a string in double quotes
+* _puts - Print string to stout
+* @str: Is a string
 * Description: Prints string
 * Return: returns (0)
 **/
