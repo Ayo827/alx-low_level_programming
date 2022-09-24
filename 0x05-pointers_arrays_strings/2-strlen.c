@@ -3,8 +3,8 @@
 #include <string.h>
 /**
 * _strlen - Length of a string
-* @str: This is string in double quotes
-* return: always (0)
+* @s: Is a string in double quotes
+* return: returns string length
 **/
 int _strlen(char *s)
 {
