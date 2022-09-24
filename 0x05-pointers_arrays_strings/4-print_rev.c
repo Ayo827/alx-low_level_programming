@@ -9,8 +9,7 @@
 **/
 void print_rev(char *s)
 {
-int i;
-int s_length;
+int i, s_length;
 char *new_s_;
 new_s_ = "";
 s_length = strlen(s);
