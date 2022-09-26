@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* _memset - Check the code
+* _strchr - Check the code
 * @s: This is a pointer string
 * @c: This is a string
 * Description: checks for the first occurrence of character
