@@ -1,8 +1,12 @@
 #include "main.h"
-#include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
-
+/**
+* print_diagsums - Check the code
+* @a: pointer to array
+* @size: size is an integer
+* Return: 0
+**/
 void print_diagsums(int *a, int size)
 {
 int i;
@@ -19,7 +23,7 @@ if (i == j)
 {
 firstDiagonal += a[i][j];
 }
-else if ((i + j) == (n - 1))
+if ((i + j) == (n - 1))
 {
 secondDiagonal += a[i][j];
 }
