@@ -7,7 +7,7 @@
 * @b: This is a string
 * @n: This is an unsigned integer
 * Description: fills the first n bytes of memory
-* Return: pointer
+* Return: s pointer
 **/
 char *_memset(char *s, char b, unsigned int n)
 {
