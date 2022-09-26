@@ -1,8 +1,7 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
+#include<stdio.h>
 /**
-* print_diagsums - Check the code
+* print_diagsums - check the code
 * @a: pointer to array
 * @size: size is an integer
 * Return: 0
