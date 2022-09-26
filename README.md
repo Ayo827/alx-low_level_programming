@@ -1,1 +1,1 @@
-This directoy is about debugging
+This repo contains introductory code into c programming 
