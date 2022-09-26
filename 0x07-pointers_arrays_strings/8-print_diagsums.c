@@ -4,8 +4,9 @@
 * print_diagsums - check the code
 * @a: pointer to array
 * @size: integer size of array
-* return: 0
-**/
+* Description: prints sum of diagonal
+* Return: 0
+*/
 void print_diagsums(int *a, int size)
 {
 int i;
