@@ -3,7 +3,6 @@
 /**
 * print_diagsums - check the code
 * @a: pointer to array
-* @size: size is an integer
 * Return: 0
 **/
 void print_diagsums(int *a, int size)
