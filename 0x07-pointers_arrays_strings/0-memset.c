@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* *_memset - Check the code
+* _memset - Check the code
 * @s: This is a pointer string
 * @b: This is a string
 * @n: This is an unsigned integer
