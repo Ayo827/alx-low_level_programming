@@ -2,13 +2,7 @@
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
-/**
-* print_diagsums - Check the code
-* @a: pointer to array
-* @size: size is an integer
-* Description: prints sum of diagonal
-* Return: 0
-**/
+
 void print_diagsums(int *a, int size)
 {
 int i;
