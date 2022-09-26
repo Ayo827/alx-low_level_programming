@@ -3,6 +3,7 @@
 #include "main.h"
 /**
 * print_chessboard - Check the code
+* @a: pointer to array
 * Description: prints a chessboard
 * Return: 0
 **/
