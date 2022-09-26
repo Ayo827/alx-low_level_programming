@@ -1,5 +1,5 @@
 #include "main.h"
-#include<stdio.h>
+#include <stdio.h>
 /**
 * print_diagsums - check the code
 * @a: pointer to array
