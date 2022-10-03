@@ -6,7 +6,7 @@
 *  @s: A string parameter
 *  Return: Always 0.
 */
- void _puts_recursion(char *s)
- {
-     puts(s);
- }
+void _puts_recursion(char *s)
+{
+puts(s);
+}
