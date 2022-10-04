@@ -10,10 +10,10 @@
 int _sqrt_recursion(int x)
 {
 float y;
-y = (float) x;
 float s;
-s = sqrt(y);
 int v;
+y = (float) x;
+s = sqrt(y);
 v = (int) s;
 if ((s - v) == 0.000000)
 {
