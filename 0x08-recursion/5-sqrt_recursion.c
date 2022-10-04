@@ -1,5 +1,6 @@
 #include <math.h>
 #include <stdio.h>
+#include "main.h"
 
 /**
 * _sqrt_recursion - check the code
