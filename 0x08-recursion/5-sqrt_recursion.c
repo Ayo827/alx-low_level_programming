@@ -5,7 +5,7 @@
 
 /**
 * _sqrt_recursion - check the code
-* @x: integer parameter
+* @x: integer arguement
 * Description: return square root of x
 * Return: integer
 **/
