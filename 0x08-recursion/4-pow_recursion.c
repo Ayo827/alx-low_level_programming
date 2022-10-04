@@ -8,6 +8,7 @@
 * Description: return x**y
 * Return: integer
 **/
-int _pow_recursion(int x, int y){
-return pow(x, y);
+int _pow_recursion(int x, int y)
+{
+return (pow(x, y));
 }
