@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "main.h"
 #include <math.h>
+#include "main.h"
 /**
 * _pow_recursion - check the code
 * @x: integer parameter
