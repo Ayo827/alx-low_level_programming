@@ -7,7 +7,8 @@
 * Description: returns the length of string
 * Return: integer
 **/
-int _strlen_recursion(char *s){
+int _strlen_recursion(char *s)
+{
 int l;
 l = strlen(s);
 return l;
