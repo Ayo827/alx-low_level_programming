@@ -10,15 +10,15 @@
 **/
 char *create_array(unsigned int size, char c)
 {
-char a[] = c;
-char *p;
-p = &a;
 if (size == 0)
 {
 return (NULL);
 }
 else
 {
+char a[size] = c;
+char *p;
+p = &a;
 return (*p);
 }
 }
