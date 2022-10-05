@@ -3,9 +3,9 @@
 #include "main.h"
 /**
 * create_array - check the code
-* @s: a string
+* @c: a string
 * @size: an unsigned int
-* Description: 
+* Description: Returns pointer to array
 * Return: pointer to array
 **/
 char *create_array(unsigned int size, char c)
