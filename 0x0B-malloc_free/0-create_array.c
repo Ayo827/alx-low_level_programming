@@ -18,8 +18,9 @@ return (NULL);
 }
 else
 {
-char a[length] = c;
+char a[1];
 char *p;
+a[0] = c;
 p = &a[0];
 return (p);
 }
