@@ -15,7 +15,7 @@ char *a;
 char *newstr;
 len = strlen(str);
 newstr = strdup(str);
-if ((char) str == NULL)
+if (str == (char)NULL)
 {
 return (NULL);
 }
