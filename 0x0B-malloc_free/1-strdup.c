@@ -13,7 +13,6 @@ char *_strdup(char *str)
 char len;
 char *a;
 char *newstr;
-char *p;
 len = strlen(str);
 newstr = strdup(str);
 if (str == NULL)
@@ -31,9 +30,7 @@ else
 {
 a = malloc(len * sizeof(char));
 a = newstr;
-p = a;
-free(a);
-return (p);
+return (a);
 }
 }
 }
