@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include <limits.h>
 /**
 * _strdup - check the code
 * @str: This is a string
@@ -11,8 +12,8 @@ char *_strdup(char *str)
 {
 char len;
 char *a;
-char newstr;
-char p;
+char *newstr;
+char *p;
 len = strlen(str);
 newstr = strdup(str);
 if (str == NULL)
