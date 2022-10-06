@@ -9,11 +9,11 @@
  * Description: Creates a 2-D array and returns pointer
  * Return: pointer.
  **/
-void **alloc_grid(int width, int height)
+int **alloc_grid(int width, int height)
 {
 int w;
 int h;
-int **grid;
+int *grid;
 char *a;
 h = 0;
 a = malloc(INT_MAX);
@@ -27,7 +27,8 @@ while (h < height)
 w = 0;
 while (w < width)
 {
-grid[h][w];
+grid[h] = h;
+grid[w] = w;
 w++;
 }
 h++;
