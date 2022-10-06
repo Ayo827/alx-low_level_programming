@@ -16,10 +16,11 @@ return (NULL);
 }
 else
 {
-char a[1];
+char *a;
 char *p;
+a = malloc(size * sizeof(size));
 a[0] = c;
-p = &a[0];
+free(a);
 return (p);
 }
 }
