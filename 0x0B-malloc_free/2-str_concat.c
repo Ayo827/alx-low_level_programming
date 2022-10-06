@@ -25,6 +25,7 @@ else if (s2 == NULL)
 {
 s2 = "";
 }
+s0 = " ";
 c0 = strcat(s0, s2);
 c = strcat(s1, c0);
 len = strlen(c);
