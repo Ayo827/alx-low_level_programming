@@ -36,7 +36,7 @@ return (NULL);
 else
 {
 a = malloc(len * sizeof(char));
-a = c;
+a[0] = c;
 return (a);
 }
 }
