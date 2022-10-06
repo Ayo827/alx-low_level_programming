@@ -22,13 +22,12 @@ if ((a == NULL) || (width <= 0) || (height <= 0))
 return (NULL);
 }
 a = malloc(w * h);
-grid[width][height];
 while (h < height)
 {
 w = 0;
 while (w < width)
 {
-grid[h][w];
+grid[h][w] = {{h, w}};
 w++;
 }
 h++;
