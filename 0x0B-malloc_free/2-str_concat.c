@@ -36,7 +36,7 @@ c0 = strcat(s0, s2);
 c = strcat(s1, c0);
 len = strlen(c);
 a = malloc(len * sizeof(char));
-a[0] = c;
+a = c;
 return (a);
 }
 }
