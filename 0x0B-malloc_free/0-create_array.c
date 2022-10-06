@@ -25,7 +25,7 @@ return (NULL);
 }
 else
 {
-a = malloc(size * sizeof(c));
+a = malloc(size * sizeof(char));
 a[0] = c;
 return (a);
 }
