@@ -17,6 +17,12 @@ char *c0;
 int len;
 char *s0;
 a = malloc(INT_MAX);
+if (a == NULL)
+{
+return (NULL);
+}
+else
+{
 if (s1 == NULL)
 {
 s1 = "";
@@ -29,12 +35,6 @@ s0 = " ";
 c0 = strcat(s0, s2);
 c = strcat(s1, c0);
 len = strlen(c);
-if (a == NULL)
-{
-return (NULL);
-}
-else
-{
 a = malloc(len * sizeof(char));
 a[0] = c;
 return (a);
