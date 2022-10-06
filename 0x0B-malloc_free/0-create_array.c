@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <limits.h>
 #include "main.h"
 /**
 * create_array - check the code
@@ -18,10 +19,16 @@ return (NULL);
 }
 else
 {
-a = malloc(size * sizeof(char));
+a = malloc(INT_MAX);
+if (a == NULL)
+{
+return (NULL);
+}
+else
+{
+a = malloc(size * sizeof(c));
 a[0] = c;
-p = a;
-free(a);
-return (p);
+return (a);
+}
 }
 }
