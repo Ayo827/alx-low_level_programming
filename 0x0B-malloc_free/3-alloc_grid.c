@@ -27,7 +27,7 @@ while (h < height)
 w = 0;
 while (w < width)
 {
-grid[h][w] = {{h, w}};
+grid[h][w] = h + w;
 w++;
 }
 h++;
