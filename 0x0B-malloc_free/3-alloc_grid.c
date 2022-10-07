@@ -13,7 +13,7 @@ int **alloc_grid(int width, int height)
 {
 int w;
 int h;
-int **grid[width][height];
+int *grid[width][height];
 int **a;
 h = 0;
 a = malloc(INT_MAX);
