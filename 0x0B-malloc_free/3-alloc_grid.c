@@ -13,11 +13,10 @@ int **alloc_grid(int width, int height)
 {
 int w;
 int h;
-int *grid;
-int **a;
+int **grid;
 h = 0;
-a = malloc(INT_MAX);
-if ((a == NULL) || (width <= 0) || (height <= 0))
+grid = malloc(INT_MAX);
+if ((grid == NULL) || (width <= 0) || (height <= 0))
 {
 return (NULL);
 }
@@ -32,6 +31,5 @@ w++;
 }
 h++;
 }
-a = grid;
-return (a);
+return (grid);
 }
