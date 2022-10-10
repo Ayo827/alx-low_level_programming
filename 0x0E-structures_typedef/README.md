@@ -1,0 +1,1 @@
+An introduction into structures and typedef in c
