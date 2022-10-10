@@ -3,6 +3,7 @@
 #include "dog.h"
 /**
 * init_dog - check the code
+* @dog: name of struct
 * @d: Pointer to struct
 * @name: String parameter
 * @age: Int parameter
