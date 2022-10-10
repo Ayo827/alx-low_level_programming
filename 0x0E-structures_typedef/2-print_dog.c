@@ -3,6 +3,7 @@
 #include "dog.h"
 /**
 * print_dog - check the code
+* @dog: name of struct
 * @d: Pointer to struct
 * Description: Print out struct
 * Return: nothing
