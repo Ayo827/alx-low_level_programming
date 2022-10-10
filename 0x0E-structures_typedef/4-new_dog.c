@@ -13,6 +13,12 @@
 dog_t *new_dog(char *name, float age, char *owner)
 {
 dog_t *new_dog;
+char *name_copy;
+char *age_copy;
+char *owner_copy;
+name_copy = name;
+age_copy = age;
+owner_copy = owner;
 new_dog = malloc(INT_MAX);
 if (new_dog == NULL) return (NULL);
 new_dog = malloc(sizeof(dog_t));
