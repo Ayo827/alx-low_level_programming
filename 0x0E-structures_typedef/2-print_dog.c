@@ -9,12 +9,11 @@
 **/
 void print_dog(struct dog *d)
 {
-float age = d->age;
 if (d == NULL)
 {
     printf("");
 }
-else if ((d->name != NULL) || (age >= 0.000000 ) || (d->owner != NULL))
+else if ((d->name != NULL) || (d->age >= 0.000000 ) || (d->owner != NULL))
 {
 printf("Name: %s\n", d->name);
 printf("Age: %f\n", d->age);
