@@ -1,13 +1,13 @@
 #include <stdio.h>
-
-struct dog
-{
-char *name;
-float age;
-char *owner;
-};
-typedef struct dog dog_t;
-
+#include "dog.h"
+/**
+* new_dog -check the code
+* @name: strin parameter
+* @age: float parameter
+* @owner: string parameter
+* Description: Create new struct
+* Return: struct
+**/
 dog_t *new_dog(char *name, float age, char *owner)
 {
 char *name_copy;
@@ -21,17 +21,4 @@ new_dog->name = name;
 new_dog->age = age;
 new_dog->owner = owner;
 return (new_dog);
-}
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    dog_t *my_dog;
-
-    my_dog = new_dog("Poppy", 3.8, "Bob");
-    printf("My name is %s, and I am %.1f :) - Woof!\n", my_dog->name, my_dog->age);
-    return (0);
 }
