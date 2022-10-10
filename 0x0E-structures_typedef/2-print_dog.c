@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <limits.h>
 #include "dog.h"
 /**
 * print_dog - check the code
@@ -10,10 +11,12 @@
 **/
 void print_dog(struct dog *d)
 {
+d = malloc(INT_MAX);
 if (d == NULL)
 {
     printf("");
 }
+d = malloc(sizeof(struct dog));
 else if ((d->name != NULL) || (d->age >= 0.000000 ) || (d->owner != NULL))
 {
 printf("Name: %s\n", d->name);
@@ -62,4 +65,5 @@ printf("Name: (nil)\n");
 printf("Age: (nil)\n");
 printf("Owner: (nil)\n");
 }
+free();
 }
