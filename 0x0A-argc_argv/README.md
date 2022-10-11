@@ -1,0 +1,1 @@
+This directory contains scripts about arguement counter(argc) and arguement vector (argv). 
