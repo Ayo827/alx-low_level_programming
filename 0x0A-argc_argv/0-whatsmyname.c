@@ -2,6 +2,8 @@
 #include <stdlib.h>
 /**
 * main - check the code
+* @argc: integer argument
+* @argv: array of pointers
 * Description: prints name of file
 * Return: Always 0
 **/
