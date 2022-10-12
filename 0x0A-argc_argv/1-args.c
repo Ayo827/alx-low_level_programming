@@ -12,9 +12,9 @@ int main(int argc, char *agrv[])
 {
 int length;
 length = sizeof(*agrv) / sizeof(agrv[0]);
-if (length > 0)
+if (length > 1)
 {
-printf("%d\n", argc);
+printf("%d\n", argc - 1);
 return (0);
 }
 return (0);
