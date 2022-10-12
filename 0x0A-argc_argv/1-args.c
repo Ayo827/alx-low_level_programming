@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include "main.h"
 /**
 * main - check the code
-* @argc: integer arguememt
-* @argv: array pointer
+* 
 * Description: Print nmber of argument
 * Return: 0
 **/
