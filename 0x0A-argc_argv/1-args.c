@@ -11,7 +11,6 @@
 int main(int argc, char *agrv[])
 {
 int count;
-int length;
 count = 1;
 if (argc > 1)
 {
