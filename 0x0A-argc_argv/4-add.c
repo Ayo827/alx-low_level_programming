@@ -17,7 +17,7 @@ if (argc > 1)
 {
 for (count = 1; count < argc; count++)
 {
-if (((int) agrv[count] * 0) == 0)
+if ((atoi(agrv[count]) * 0) == 0)
 {
 sum = sum + atoi(agrv[count]);
 }
