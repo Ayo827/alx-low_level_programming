@@ -2,14 +2,14 @@
 #include <stdlib.h>
 #include "main.h"
 /**
-* whatsmyname - check the code
+* main - check the code
 * @argc: integer argument
 * @argv: array of pointers
 * Description: prints name of file
 * Return: Always 0
 **/
-int whatsmyname(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-puts(argv[0]);
+printf("%s\n", __FILE__);
 return (0);
 }
