@@ -13,7 +13,7 @@ int main(int argc, char *agrv[])
 int mul;
 if (argc == 3)
 {
-mul = agrv[1] * agrv[2];
+mul = atoi(agrv[1]) * atoi(agrv[2]);
 printf("%d\n", mul);
 return (0);
 }
