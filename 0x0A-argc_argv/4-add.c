@@ -8,7 +8,7 @@
 * Description: Add numbers together
 * Return: 0
 **/
-int main(int argc, int *agrv[])
+int main(int argc, char *agrv[])
 {
 int count;
 int sum;
@@ -19,7 +19,7 @@ for (count = 1; count < argc; count++)
 {
 if ((agrv[count] * 0) == 0)
 {
-sum = sum + agrv[count];
+sum = sum + atoi(agrv[count]);
 }
 else
 {
