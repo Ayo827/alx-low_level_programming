@@ -8,7 +8,7 @@
 * Description: prints name of file
 * Return: Always 0
 **/
-int whatsmyname(int argc, char* argv[])
+int whatsmyname(int argc, char *argv[])
 {
 puts(argv[0]);
 return (0);
