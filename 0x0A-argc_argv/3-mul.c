@@ -10,15 +10,13 @@
 **/
 int main(int argc, char *agrv[])
 {
-int count;
 int mul;
-count = 0;
 if (argc == 3)
 {
-mul = argv[1] * argv[2];
+mul = agrv[1] * agrv[2];
 printf("%d\n", mul);
 return (0);
 }
-printf("Error\n"));
+printf("Error\n");
 return (1);
 }
