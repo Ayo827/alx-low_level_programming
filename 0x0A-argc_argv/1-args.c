@@ -11,10 +11,11 @@
 int main(int argc, char *agrv[])
 {
 int length;
-length = sizeof(agrv) / sizeof(agrv[0]);
+length = sizeof(*agrv) / sizeof(agrv[0]);
 if (length > 0)
 {
 printf("%d\n", argc);
 return (0);
 }
+return (0);
 }
