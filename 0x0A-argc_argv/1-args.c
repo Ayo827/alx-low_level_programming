@@ -10,12 +10,18 @@
 **/
 int main(int argc, char *agrv[])
 {
+int count;
 int length;
-length = sizeof(*agrv) / sizeof(agrv[0]);
-if (length > 1)
+count = 1;
+if (argc > 1)
 {
-printf("%d\n", argc - 1);
+while (count < argc)
+{
+count++;
+}
+printf("%d\n", count);
 return (0);
 }
+printf("%d", atoi(agrv[0]));
 return (0);
 }
