@@ -20,7 +20,6 @@ for (count = 1; count < argc; count++)
 if ((atoi(agrv[count]) * 0) == 0)
 {
 sum = sum + atoi(agrv[count]);
-printf("%d\n", sum);
 }
 else
 {
@@ -29,7 +28,12 @@ return (1);
 }
 }
 }
+else
+{
 count = 0;
 printf("%d\n", count);
+return (0);
+}
+printf("%d\n", sum);
 return (0);
 }
