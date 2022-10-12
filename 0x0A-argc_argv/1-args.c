@@ -22,6 +22,6 @@ count++;
 printf("%d\n", count);
 return (0);
 }
-printf("%d", atoi(agrv[0]));
+printf("%d\n", atoi(agrv[0]));
 return (0);
 }
