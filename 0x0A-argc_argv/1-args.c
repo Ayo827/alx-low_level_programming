@@ -11,10 +11,10 @@
 int main(int argc, char *agrv[])
 {
 int count;
-count = 1;
+count = 0;
 if (argc > 1)
 {
-while (count < argc)
+while (count < (argc - 1))
 {
 count++;
 }
