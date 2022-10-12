@@ -3,7 +3,8 @@
 #include "main.h"
 /**
 * main - check the code
-* 
+* @argc: integer array number
+* @agrv: array of pointer
 * Description: Print nmber of argument
 * Return: 0
 **/
