@@ -22,7 +22,7 @@ printf("%s", va_arg(ap, const char*));
 }
 else if (va_arg(ap, const char*) == NULL)
 {
-printf("(nil)%s", va_arg(ap, const char*), separator);
+printf("(nil)%s", separator);
 }
 printf("%s%s", va_arg(ap, const char*), separator);
 }
