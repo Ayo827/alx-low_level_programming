@@ -1,0 +1,1 @@
+This directory contains introductory code into linked list.
