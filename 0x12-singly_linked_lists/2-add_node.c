@@ -1,5 +1,11 @@
 #include "lists.h"
-
+/**
+* add_node -Check the code
+* @head: pointer to address
+* @str: string
+* Description: Function to add a new node
+* Return: Pointer of next list
+**/
 list_t *add_node(list_t **head, const char *str)
 {
 list_t *new;
